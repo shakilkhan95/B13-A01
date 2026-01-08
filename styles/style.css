@@ -16,7 +16,7 @@ ul li{
 }
 
 .container{
-    margin: 7.5%;
+    margin: 0 7.5%;
 }
 
 .btn-primary{
@@ -102,7 +102,7 @@ ul li{
 }
 
 .banner-content{
-    padding: 115px 7.5% 180px;
+    padding: 115px 7.5% 80px;
     text-align: center;
 }
 
@@ -148,4 +148,51 @@ ul li{
 
 .btn-group .btn-secondary i{
     margin-right: 10px;
+}
+
+/* Notes section styles  */
+#notes{
+    padding: 0 7.5%;
+    background-color: #FBFBFB;
+}
+
+#notes .section-title{
+    text-align: center;
+    padding: 30px;
+}
+
+.notes-cards{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.notes-cards .card{
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 -4px 8px 0 #00000009;
+    text-align: center;
+}
+
+.notes-cards .card .card-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notes-cards .card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.notes-cards .card p{
+    font-size: 16px;
+    color: #627382;
 }
