@@ -71,6 +71,81 @@ ul li{
     color: #627382;
 }
 
+/* Header section styles  */
+#navbar{
+    margin: 0 7.5%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar .navlink{
+    display: flex;
+    gap: 32px;
+}
+
+#navbar .navlink li a{
+    color: #000000;
+    font-size: 16px;
+    opacity: 90%;
+}
+
+#navbar .navlink li a:hover{
+    text-decoration: underline;
+}
+
 .banner{
     background: url(../assets/hero-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner-content{
+    padding: 115px 7.5% 180px;
+    text-align: center;
+}
+
+.banner-content .access-stat{
+    width: fit-content;
+    padding: 8px 12px;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    color: #30B868;
+}
+
+.banner-content h1{
+    font-size: 72px;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.banner-content h1 span{
+    color: #30B868;
+}
+
+.banner-content p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.btn-group .btn-primary{
+    margin-right: 16px;
+}
+
+.btn-group .btn-primary i{
+    margin-left: 10px;
+}
+
+.btn-group .btn-secondary i{
+    margin-right: 10px;
 }
