@@ -80,6 +80,10 @@ ul li{
     align-items: center;
 }
 
+#navbar .logo{
+    cursor: pointer;
+}
+
 #navbar .navlink{
     display: flex;
     gap: 32px;
@@ -131,11 +135,12 @@ ul li{
     color: #30B868;
 }
 
-.banner-content p{
+.banner-content .banner-details{
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
+    padding: 0 15%;
 }
 
 .btn-group .btn-primary{
@@ -239,4 +244,50 @@ ul li{
 #early-access .free-message{
     font-size: 16px;
     color: #627382;
+}
+
+/* Footer section style  */
+#footer{
+    background-color: #001931;
+}
+
+#footer .container{
+    padding: 120px 0 30px;
+}
+
+#footer .footer-navs{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-navs .footer-logo{
+    cursor: pointer;
+}
+
+.footer-navs .social-links p{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+}
+
+.footer-navs .social-links .icons{
+    display: flex;
+    gap: 16px;
+}
+
+.footer-navs .social-links .icons div{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#footer .copyright{
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
+    margin-top: 110px;
 }
