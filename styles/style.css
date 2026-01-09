@@ -136,6 +136,7 @@ ul li{
     line-height: 24px;
     color: #FFFFFF;
     margin-bottom: 32px;
+    padding: 0 15%;
 }
 
 .btn-group .btn-primary{
@@ -196,3 +197,30 @@ ul li{
     font-size: 16px;
     color: #627382;
 }
+
+/* second brain section starts here  */
+#sec-brain{
+    padding: 120px 0;
+    display: flex;   
+    gap: 60px;
+    align-items: center;
+}
+
+#sec-brain .section-info .top-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.section-info .checklist div{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+
+.section-info .checklist div p{
+    font-size: 16px;
+    color: #001931;
+}
+
