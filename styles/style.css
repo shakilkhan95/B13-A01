@@ -147,7 +147,7 @@ ul li{
     margin-right: 16px;
 }
 
-.btn-group .btn-primary i{
+.btn-primary i{
     margin-left: 10px;
 }
 
@@ -237,6 +237,10 @@ ul li{
     text-align: center;
 }
 
+#early-access .section-title p{
+    padding: 0 28%;
+}
+
 #early-access .btn-primary{
     margin: 24px 0 16px;
 }
@@ -289,5 +293,7 @@ ul li{
     font-size: 16px;
     color: #FAFAFA;
     text-align: center;
-    margin-top: 110px;
+    margin-top: 80px;
+    padding-top: 30px;
+    border-top: 1px solid #E5E7EB20;
 }
